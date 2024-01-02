@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Other generated files
+*.log
+*.pid
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Dependency directories
+__pycache__/
+*.pyc
+
+#other files
+.DS_Store
