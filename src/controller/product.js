@@ -67,9 +67,7 @@ const deleteProduct = async (req, res) => {
 
 const getAllProduct = async (req, res) => {
   try {
-    console.log("inside try");
     const Products = await Product.find({});
-    console.log(Products);
     res.send(Products);
   } catch (error) {
     res.status(400).json({ message: "Something went wrong." });
