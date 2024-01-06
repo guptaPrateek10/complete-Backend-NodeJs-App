@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
-const dbConnect = require("./config/dbConfig");
-const authRoutes = require("./src/routes/auth");
-const userRoutes = require("./src/routes/user");
-const productRoute = require("./src/routes/product");
+const dbConnect = require("../config/dbConfig");
+const authRoutes = require("./routes/auth");
+const userRoutes = require("./routes/user");
+const productRoute = require("./routes/product");
 
 //connecting to Mongo db
 dbConnect();
